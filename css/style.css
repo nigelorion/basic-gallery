@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  text-align: center;
+
+}
+div {
+  border: 3px dotted black;
+  /*margin: 5px;*/
+}
+
+#one {
+  height: 10vh;
+  width: 100vw;
+}
+
+.gallery {
+  width: 80vw;
+  margin: 2vh auto;
+  height: 20vh;
+}
+
+@media (min-width: 600px){
+  .gallery {
+    width: 40vw;
+    margin: 1vh 1vw auto;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px){
+  .gallery {
+    width: 26vw;
+    margin: 1vh 1vw auto;
+    display: inline-block;
+  }
+}
